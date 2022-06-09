@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = process.evn.PORT || 3000;
 
 //#We don't want to use all our code in a file
 // app.get('/', (req, res) =>{
